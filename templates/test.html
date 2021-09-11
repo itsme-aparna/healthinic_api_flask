@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='test.css')}}">
+  </head>
+
+  <body>
+    <form method="POST">
+      <div class="container">
+        <h2>Video Category</h2>
+  
+        <div class="select-box">
+          <div class="options-container">
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                id="automobiles"
+                name="category"
+                value="abcd"
+              />
+              <label for="automobiles">Automobiles</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="film" name="category" value="abcd"/>
+              <label for="film">Film & Animation</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="science" name="category" value="abcd"/>
+              <label for="science">Science & Technology</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="art" name="category" value="abcd"/>
+              <label for="art">Art</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="music" name="category" value="abcd"/>
+              <label for="music">Music</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="travel" name="category" value="abcd"/>
+              <label for="travel">Travel & Events</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="sports" name="category" value="abcd"/>
+              <label for="sports">Sports</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="news" name="category" value="abcd"/>
+              <label for="news">News & Politics</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="tutorials" name="category" value="abcd"/>
+              <label for="tutorials">Tutorials</label>
+            </div>
+          </div>
+  
+          <div class="selected">
+            Select Video Category
+          </div>
+  
+          <div class="search-box">
+            <input type="text" placeholder="Start Typing..." />
+          </div>
+        </div>
+  
+        <!--<h2>Video Category</h2>
+  
+        <div class="select-box">
+          <div class="options-container">
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                id="automobiles"
+                name="category1"
+                value="abcde"
+              />
+              <label for="automobiles">Automobiles</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="film" name="category1" value="abcde"/>
+              <label for="film">Film & Animation</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="science" name="category1" value="abcde"/>
+              <label for="science">Science & Technology</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="art" name="category1" value="abcde"/>
+              <label for="art">Art</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="music" name="category1" value="abcde"/>
+              <label for="music">Music</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="travel" name="category1" value="abcde"/>
+              <label for="travel">Travel & Events</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="sports" name="category1" value="abcde" />
+              <label for="sports">Sports</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="news" name="category1" value="abcde" />
+              <label for="news">News & Politics</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="tutorials" name="category1" value="abcde" />
+              <label for="tutorials">Tutorials</label>
+            </div>
+          </div>
+  
+          <div class="selected">
+            Select Video Category
+          </div>
+  
+          <div class="search-box">
+            <input type="text" placeholder="Start Typing..." />
+          </div>
+        </div>
+  
+        <h2>Video Category</h2>
+  
+        <div class="select-box">
+          <div class="options-container">
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                id="automobiles"
+                name="category2"
+                value="abcdef"
+              />
+              <label for="automobiles">Automobiles</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="film" name="category2" value="abcdef" />
+              <label for="film">Film & Animation</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="science" name="category2" value="abcdef" />
+              <label for="science">Science & Technology</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="art" name="category2" value="abcdef" />
+              <label for="art">Art</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="music" name="category2" value="abcdef" />
+              <label for="music">Music</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="travel" name="category2" value="abcdef" />
+              <label for="travel">Travel & Events</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="sports" name="category2" value="abcdef" />
+              <label for="sports">Sports</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="news" name="category2" value="abcdef" />
+              <label for="news">News & Politics</label>
+            </div>
+  
+            <div class="option">
+              <input type="radio" class="radio" id="tutorials" name="category2" value="abcdef" />
+              <label for="tutorials">Tutorials</label>
+            </div>
+          </div>
+  
+          <div class="selected">
+            Select Video Category
+          </div>
+  
+          <div class="search-box">
+            <input type="text" placeholder="Start Typing..." />
+          </div>
+        </div>-->
+      </div>
+  
+      <script src="{{url_for('static',filename='test.js')}}"></script>
+    <button type="submit">SUBMIT</button>
+  </form>
+  </body>
+</html>
